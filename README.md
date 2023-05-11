@@ -13,7 +13,7 @@
 
 ### Prerequisite:
 
-1. Or unzip the file sent in email.
+1. Clone the github repo.
 2. Environment set-up:
     - Have npm installed in your machine.
     - Have a Python environment setup in your machine. Use an IDE which supports running of React js and Python projects. (We have used VS code for project development)
