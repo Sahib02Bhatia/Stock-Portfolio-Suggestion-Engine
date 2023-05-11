@@ -1,0 +1,49 @@
+@import '~antd/dist/antd.css';
+
+.bg{
+  font-family: 'Calibri', sans-serif;
+  background-color: #67c9f4;
+  }
+
+.App {
+  text-align: center;
+}
+
+.text-info-overlap{
+    color: white;
+}
+
+.text-secondary1 {
+ color: white;
+ }
+ .text-secondary1 th {
+  color: white;
+  }
+
+ .ant-card-head{
+    background-color: #67c9f4;
+    color: white;
+ }
+
+ .ant-btn{
+  background-color: #67c9f4;
+  color: white;
+}
+
+
+.text-danger{
+    padding-bottom: 50px;
+}
+
+.table-font{
+  font-size: large;
+}
+
+.stock-trend-wrapper{
+  font-size: medium !important;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #67c9f4;
+  border-color: #67c9f4;
+}
