@@ -78,15 +78,15 @@ class Home extends Component {
           <Divider></Divider>
         </div>
         
-        <div class="six">
+        {/* <div class="six">
         <h1>STOCK PORTFOLIO
             <span>
                 Suggestion Engine
             </span>
         </h1>
-    </div>
+    </div> */}
 
-        <Scard>
+        
           <div class="px-2 py-2" align="center">
             <div class="ten">
               <h1>What amount do you want to Invest (in dollars)?</h1>
@@ -107,7 +107,7 @@ class Home extends Component {
             <div class="ten">
               <h1 class="">Select Investment Strategies (upto two):</h1>
             </div>
-            <Scard>
+            
               <Checkbox.Group onChange={this.toggleStrategy}>
                 <Row type="flex">
                   <Col>
@@ -199,7 +199,7 @@ class Home extends Component {
                   </Col>
                 </Row>
               </Checkbox.Group>
-            </Scard>
+            
           </div>
           <div class="px-2 py-2">
             <center style={{ paddingTop: 50 }}>
@@ -217,7 +217,6 @@ class Home extends Component {
               </Button>
             </center>
           </div>
-        </Scard>
       </div>
     );
   }

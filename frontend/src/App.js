@@ -9,8 +9,7 @@ import Heading from './Components/Heading';
 function App() {
   return (
     <BrowserRouter>
-      <div>
-        <Heading/>
+      <div style={{backgroundColor: 'white'}}>
         <Main />
       </div>
     </BrowserRouter>
