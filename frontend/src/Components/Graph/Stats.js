@@ -79,7 +79,7 @@ export class Stats extends Component {
             skeleton=null
         }
         return (
-            <div className="stats">
+            <div className="stats" >
                 <center><h1>Stocks Suggestion</h1></center><br />
                 <div>
                     <Table striped bordered hover className='table-font'>
