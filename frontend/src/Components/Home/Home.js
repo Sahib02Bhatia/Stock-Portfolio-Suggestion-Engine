@@ -206,11 +206,11 @@ class Home extends Component {
               <Button
                 type="primary"
                 style={{ width: 500, height: 50 }}
-                // disabled={
-                //   this.state.strategies.length < 1 ||
-                //   this.state.strategies.length > 2 ||
-                //   this.state.amount < 5000
-                // }
+                disabled={
+                  this.state.strategies.length < 1 ||
+                  this.state.strategies.length > 2 ||
+                  this.state.amount < 5000
+                }
                 onClick={this.invest}
               >
                 Get Suggestions

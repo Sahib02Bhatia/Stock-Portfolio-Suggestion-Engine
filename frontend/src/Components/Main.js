@@ -9,7 +9,7 @@ class Main extends Component{
 
     render(){
         return(
-            <div>
+            <div className='main_div' >
                 <Route exact path="/" component={Home}></Route>
                 <Route exact path="/graph" component={Graph}></Route>
                 <Route exact path="/suggest" component={Stats}></Route>

@@ -54,7 +54,7 @@ export class Graph extends Component {
 
     return (
       <div className="profileview mb-3">
-        <LineChart className="stock-trend-wrapper" width={700} height={300} data={data} >
+        <LineChart className="stock-trend-wrapper" width={400} height={200} data={data} >
           <Line type="monotone" dataKey="val" stroke={strokeColor}/>
           <CartesianGrid strokeDasharray="5 5" />
           <XAxis dataKey="day" />

@@ -9,6 +9,9 @@
   text-align: center;
 }
 
+.main_div{
+overflow: auto;
+}
 .text-info-overlap{
     color: white;
 }
@@ -43,7 +46,7 @@
   font-size: medium !important;
 }
 
-.ant-checkbox-checked .ant-checkbox-inner {
+/* .ant-checkbox-checked .ant-checkbox-inner {
   background-color: #fde881;
   border-radius: 100px 100px 30px 100px;
 }
@@ -161,7 +164,7 @@ body {
   min-height: 100vh;
   font-size: 1.5rem;
   background-color: #222222;
-}
+} */
 
 
 h1 {

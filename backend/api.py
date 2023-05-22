@@ -1,4 +1,3 @@
-
 #Sahib Singh Bhatia - 016042650
 #Subhash Reddy - 016003403
 #Santhosh Bodla - 016002454
@@ -167,4 +166,3 @@ def allocate_stocks():
 
 if __name__ == '__main__':
     app.run(debug=True)
-
